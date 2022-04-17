@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora usando HTML</title>
+    <link rel="shortcut icon" href="src/images/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/corpo.css">
+    <link rel="stylesheet" href="src/css/tela.css">
+    <link rel="stylesheet" href="src/css/teclado.css">
+</head>
+<body>
+    <main>
+        <div id="tela" ondblclick="easterEgg()">
+            <span id="conta">calculadora JS</span>
+            <span id="tela-de-resultados"></span>
+            <span class="underline"></span>
+        </div>
+
+        <div class="teclado">
+            <div class="teclado-numerico">
+                <table>
+                    <tr>
+                        <td class="tecla" onclick="clicar('7')"><span>7</span></td>
+                        <td class="tecla" onclick="clicar('8')"><span>8</span></td>
+                        <td class="tecla" onclick="clicar('9')"><span>9</span></td>
+                    </tr>
+                    <tr>
+                        <td class="tecla" onclick="clicar('4')"><span>4</span></td>
+                        <td class="tecla" onclick="clicar('5')"><span>5</span></td>
+                        <td class="tecla" onclick="clicar('6')"><span>6</span></td>
+                    </tr>
+                    <tr>
+                        <td class="tecla" onclick="clicar('1')"><span>1</span></td>
+                        <td class="tecla" onclick="clicar('2')"><span>2</span></td>
+                        <td class="tecla" onclick="clicar('3')"><span>3</span></td>
+                    </tr>
+                    <tr>
+                        <td class="tecla-vazia"></td>
+                        <td class="tecla" onclick="clicar('0')"><span>0</span></td>
+                    </tr>
+                    <tr>
+                        <td class="tecla-vazia"></td>
+                    </tr>
+                    <tr>
+                        <td class="tecla" onclick="del()"><span>DEL</span></td>
+                        <td class="tecla" onclick="limpar()"><span>C</span></td>
+                        <td class="tecla" onclick="clicar('.')"><span>.</span></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="operadores">
+                <table>
+                    <tr>
+                        <td class="tecla" onclick="clicar('/')"><span>/</span></td>
+                    </tr>
+                    <tr>
+                        <td class="tecla" onclick="clicar('*')"><span>x</span></td>
+                    </tr>
+                    <tr>
+                        <td class="tecla" onclick="clicar('-')"><span>-</span></td>
+                    </tr>
+                    <tr>
+                        <td class="tecla" onclick="clicar('+')"><span>+</span></td>
+                    </tr>
+                    <tr>
+                        <td class="tecla" id="resultado" onclick="resultado()"><span>=</span></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+    
+    <footer>
+        <p>Desenvolvido por <a href="https://github.com/MoreiraMatheus" target="_blank">Matheus Moreira</a></p>
+    </footer>
+    <script src="src/js/main.js"></script>
+</body>
+</html>

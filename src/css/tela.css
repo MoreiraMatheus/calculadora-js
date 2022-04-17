@@ -1,0 +1,28 @@
+#tela{
+    background-color: rgb(101, 101, 236);
+    height: 15%;
+    margin: 10px;
+    border: 6px double black;
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+}
+
+#conta{
+    font-family: var(--fonte2);
+    display: block;
+    text-align: left;
+    font-size: small;
+}
+
+#tela-de-resultados{
+    height: 50%;
+    font-family: var(--fonte2);
+    padding: 5px;
+    margin-top: 2%;
+    display: block;
+    font-size: 2em;
+}
+.underline{
+    display: block;
+    border-bottom: 1px dashed black;
+}

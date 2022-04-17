@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Keania+One&display=swap');
+
+:root{
+    --cor1: #9BC4BC;
+    --cor2: #41463D;
+    --cor3: #8DDBE0;
+    --cor4: #FABC2A;
+    --cor5: #474954;
+
+    --fonte1: Arial, Helvetica, sans-serif;
+    --fonte2: 'Keania One', cursive;
+    
+}
+
+body{
+    background-image: linear-gradient(white, rgba(118, 165, 236, 0.603));
+}
+
+main{
+    background-color: grey;
+    height: 551px;
+    width: 350px;
+    margin: 28px auto;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.295);
+    font-family: var(--fonte1);
+}
+
+footer{
+    font-family: var(--fonte1);
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1vh;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+footer a:hover{
+    text-shadow: 1px 1px 10px var(--cor3);
+}

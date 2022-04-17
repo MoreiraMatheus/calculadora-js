@@ -1,0 +1,66 @@
+.teclado{
+    /* background-color: brown; */
+    height: 75%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.teclado-numerico{
+    /* background-color: red; */
+    width: 70%;
+    padding-left: 7px;
+    border-right: 1px solid rgba(0, 0, 0, 0.192) ;
+}
+
+.tecla{
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.493);
+    cursor: pointer;
+    transition: 0.25s;
+}
+.tecla:hover{
+    background-color: rgb(197, 197, 197);
+}
+.tecla span{
+    display: block;
+    margin-top: 35%;
+}
+
+.tecla-vazia{
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0);
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin: 5px;
+}
+
+#zero{
+    margin-left: 80px;
+}
+
+.operadores{
+    /* background-color: rgb(255, 169, 10); */
+    width: 20%;
+    padding-right: 4px;
+}
+
+#resultado{
+    height: 120px;
+    background-color: rgb(57, 57, 255);
+    color: white;
+}
+#resultado:hover{
+    background-color: rgb(37, 37, 247);
+}
+#resultado span{
+    margin-top: 50px;
+}
