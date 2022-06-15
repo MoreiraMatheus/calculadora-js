@@ -1,4 +1,8 @@
-# calculadora-js
-projeto criado para a prática de HTML CSS e JS
+# :heavy_plus_sign: Calculadora-js :heavy_minus_sign:
+projeto criado para práticar minhas habilidades em
 
-Veja ele funcionando clicando [Aqui](https://moreiramatheus.github.io/calculadora-js/)
+* HTML
+* CSS
+* JavaScript
+
+Veja ele funcionando na web clicando [Aqui](https://moreiramatheus.github.io/calculadora-js/)
